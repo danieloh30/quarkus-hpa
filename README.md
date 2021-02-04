@@ -18,9 +18,8 @@ The application can be packaged using:
 ./mvnw package -DskipTests
 ```
 
-## Add a RR annotaion to Route
+## Add a RR annotation to Route
 
-You can create a native executable using: 
 ```shell script
 oc annotate route quarkus-hpa haproxy.router.openshift.io/balance=roundrobin
 ```
